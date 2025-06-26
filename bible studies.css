@@ -1,0 +1,54 @@
+@media screen and (min-width: 1024px) {
+  .by {
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 5px 4px 3px;
+  }
+  .by:hover {
+    color: green;
+  }
+  .bv {
+    font-size: 30px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-shadow: 3px 5px 6px;
+  }
+  .fy {
+    font-size: 60px;
+    text-shadow: 4px 3px 2px;
+  }
+  .fy:hover {
+    color: blue;
+  }
+  a {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width:768px) {
+  .by {
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 5px 4px 3px;
+  }
+  .by:hover {
+    color: green;
+  }
+  .bv {
+    font-size: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-shadow: 3px 5px 6px;
+    text-align: center;
+  }
+  .fy {
+    font-size: 30px;
+    text-shadow: 4px 3px 4px;
+    text-align: center;
+  }
+  .fy:hover {
+    color: blue;
+  }
+  a {
+    font-size: 30px;
+  }
+}

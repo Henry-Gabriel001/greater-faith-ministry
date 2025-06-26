@@ -1,0 +1,75 @@
+@media screen and (min-width: 1024px) {
+  .ac {
+    font-size: 60px;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 10px 4px 9px;
+    background-color: black;
+  }
+  .ac:hover {
+    transform: rotateY(50deg);
+    background: white;
+    color: black;
+  }
+  .hd {
+    color: black;
+  }
+  .act {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    background-color: white;
+  }
+  a {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ac {
+    font-size: 40px;
+    text-align: center;
+    color: chartreuse;
+    text-shadow: 10px 4px 9px;
+    background-color: black;
+    animation: 7s infinite head;
+  }
+  .ac:hover {
+    transform: rotateY(50deg);
+    background: yellow;
+    color: black;
+  }
+
+  .hd {
+    color: chartreuse;
+  }
+  .act {
+    font-size: 10px;
+    text-align: center;
+    color: black;
+    background-color: bisque;
+    border-radius: 30px;
+    padding: 20px;
+    animation: 22s infinite news;
+  }
+  @keyframes news {
+    from {
+      background-color: black;
+      color: aliceblue;
+    }
+    to {
+      background-color: black;
+      color: yellow;
+    }
+  }
+  a {
+    font-size: 30px;
+  }
+  @keyframes head {
+    0% {
+      transform: rotateY(50deg);
+      background: yellow;
+      color: black;
+    }
+  }
+}

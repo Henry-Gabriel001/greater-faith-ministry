@@ -1,0 +1,109 @@
+@media screen and (min-width:1023px){
+.an{
+font-size:80px; 
+text-align: center;
+color:aliceblue;
+text-shadow:20px 4px 1px black ;                         
+}
+.an:hover{
+text-decoration:underline moccasin;
+font-style:italic;                          
+}
+.ae{
+font-size:30px;
+box-shadow:11px 22px 22px ;
+width:300px;
+float:right;
+border :3px solid black;
+background:black;
+color:skyblue;
+text-shadow: 2px 6px 2px black;                          
+}
+.aa{
+font-size:50px;
+color:black;
+margin-left:400px;
+background:white;
+text-shadow:5px 6px 4px;
+box-shadow:4px 6px 7px black ;
+
+}
+.am{
+font-size: 30px;
+font-family: serif;
+text-shadow:2px 4px 8px ;
+box-shadow:4px 8px  8px black;
+background-color:white;                          
+}
+a{
+ font-size:30px ;
+ word-spacing:100px ; 
+ margin: 0px 30px;                        
+}
+}
+@media screen and (max-width:768px){
+.an{
+                                                    font-size:50px; 
+                                                    text-align: center;
+                                                    color:black;
+                                                    text-shadow:20px 4px 4px gray ;
+                                                   
+ }
+                                                    .an:hover{
+                                                    text-decoration:underline moccasin;
+                                                    font-style:italic;                          
+                                                    }
+                                                    .ae{
+                                                    font-size:20px;
+                                                    box-shadow:11px 22px 22px ;
+                                                    width:200px;
+                                                    border :3px solid black;
+                                                    background:black;
+                                                    color:skyblue;
+                                                    text-shadow: 2px 6px 2px black;                          
+                                                    }
+                                                    .aa{
+                                                    font-size:30px;
+                                                    color:black;
+                                                    background:white;
+                                                    text-shadow:5px 6px 4px;
+                                                    box-shadow:4px 6px 7px black ;
+                                                    
+                                                    }
+                                                    .am{
+                                                    font-size: 20px;
+                                                    font-family: serif;
+                                                    text-shadow:2px 4px 8px ;
+                                                    box-shadow:4px 8px  8px black;
+                                                    background-color:white;                          
+                                                    }
+                                                    a{
+                                                     font-size:30px ;                                   margin: 0px 30px;                                                          }                                 
+ img{
+ width: 300px;                         
+ } 
+h1{
+ animation: move 3s infinite;                         
+} 
+@keyframes move{
+from{color:skyblue}
+to{color:brown}                          
+}                                                  }
+
+                          
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                                             
+}
+
+
+
+
+
+
+
