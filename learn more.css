@@ -1,0 +1,105 @@
+@media screen  and (min-width:1024px){
+
+  body{
+    text-align: center;
+    background-color: black;
+    position: relative; 
+     }
+   h1{
+     text-align: center; 
+     color: aliceblue; 
+     background: black;
+     box-shadow: 5px 6px 3px white;
+     font-size: 40px;
+     border-radius: 20px;
+     display: inline-block;
+     margin: 10px 40px;
+     animation:animate 11s infinite ;
+     }
+     @keyframes animate{
+   from{color: brown;}
+   to{color:red;}    
+     }
+     img{
+    width: 300px;
+    border-radius: 30px; 
+    margin: 20px 20px;  
+     }
+     a:hover{
+      color: white;
+      background-color: coral;   
+      } 
+     p{
+    color: aliceblue;
+    font-size: 25px;   
+     } 
+   button a{
+    color:black;
+    font-size:30px;
+    background-color:crimson;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0px; 
+
+     }
+     a{
+    color: white; 
+    font-size: 30px; 
+    margin: 50px 0px;
+    margin-right: 50px; 
+     }      
+
+}                    
+   @media screen and (max-width:768px){
+    body{
+     text-align: center;
+     padding: 20px;
+     margin: 10px 20px; 
+     background-color: black; 
+      }
+    h1{
+      text-align: center; 
+      color: aliceblue; 
+      background: black;
+      box-shadow: 5px 6px 3px white;
+      font-size: 40px;
+      border-radius: 20px;
+      display: inline-block;
+      margin: 10px 10px;
+      animation:animate 11s infinite ;
+      }
+      @keyframes animate{
+    from{color: brown;}
+    to{color:red;}    
+      }
+      img{
+     width: 300px;
+     border-radius: 30px; 
+     margin: 20px 20px;  
+      }
+      p{
+     color: aliceblue;
+     font-size: 25px;   
+      } 
+    button a{
+     color:black;
+     font-size:30px;
+     background-color:crimson;
+     border: none;
+     border-radius: 20px;
+     padding: 10px;
+     margin: 10px 0px; 
+
+      }
+     a:hover{
+     color: white;
+     background-color: coral;   
+      }
+      a{
+     color:white; 
+     font-size: 30px; 
+     margin: 50px 0px;
+     margin-right: 50px; 
+      }                     
+    }

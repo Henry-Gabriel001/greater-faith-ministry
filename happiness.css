@@ -1,0 +1,129 @@
+@media screen and (min-width: 1024px){
+  body{
+  position: relative;                       
+  }                        
+  .hap {
+    font-size: 60px;
+    color: rgb(99, 165, 222);
+    text-align: center;
+    text-shadow: orangered 4px 2px 2px;
+    border: 2px solid;
+    box-shadow: 2px 2px 8px;
+    display: inline-block;
+    margin-left: 500px;
+  }
+  .hap:hover {
+    color: black;
+  }
+  img{
+  text-align: center;
+  justify-content: center; 
+  margin-left: 500px;
+  width: 400px;                       
+  }
+  .haap {
+    border: solid green;
+    box-shadow: 2px 15px 20px black;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px;
+    background-color: black;
+    color: white;
+    margin-top: 150px;
+  }
+  .haap:hover {
+    color: aliceblue;
+    background-color: red;
+  }
+  .hep {
+    border: dotted 2px yellow;
+    box-shadow: 12px 10px 17px;
+    display: inline-block;
+    font-size: 30px;
+margin-left: 400px;
+  }
+  .hep:hover {
+    color: yellow;
+    background-color: black;
+  }
+  .hop {
+    border: double blue 4px;
+    font-size: 30px;
+    box-shadow: 3px 16px 12px;
+    background-color: beige;
+    text-align: center;
+    margin-left: 50px;
+  }
+  a {
+    background-color: yellowgreen;
+    color: aliceblue;
+    border: 2px dotted red;
+    box-shadow: 4px 17px 8px black;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body{
+  background:black;
+  text-align: center;
+  align-items: center; 
+  justify-content: center;                       
+  }
+                          .hap {
+    font-size: 40px;
+    color: rgb(10,200, 44);
+    text-align: center;
+    text-shadow:4px 6px 3px black;
+    border: 2px solid;
+    box-shadow: 2px 2px 8px;
+    display: inline-block;
+    border-radius: 20px;
+  }
+  .hap:hover {
+    color: black;
+  }
+  .haap {
+    border: solid black;
+    box-shadow: 2px 15px 20px black;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px;
+    background-color:lightgreen;
+    color:black;
+    width: 300px;
+    margin-top: 150px;
+    border-radius: 10px;
+  }
+  .haap:hover {
+    color: aliceblue;
+    background-color: red;
+  }
+  .hep {
+    border: dotted 2px yellow;
+    box-shadow: 12px 10px 17px;
+    display: inline-block;
+    font-size: 30px;
+    float: right top;
+    color: yellow;
+  }
+  .hep:hover {
+    color:white;
+    background-color: black;
+  }
+  .hop {
+    border: double white;
+    font-size: 30px;
+    box-shadow: 3px 16px 12px;
+    background-color:black;
+    color: aliceblue;
+  }
+  img{
+  width: 200px;  
+  }
+  a {
+    background-color:dimgray;
+    color: aliceblue;
+    border: 2px dotted red
+    box-shadow: 4px 17px 8px black;
+    font-size: 30px;
+    border-radius: 20px;
+  }
+}

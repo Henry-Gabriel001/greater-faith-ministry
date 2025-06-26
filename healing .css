@@ -1,0 +1,97 @@
+.he {
+  border: double black 4px;
+  background-color: black;
+  color: whitesmoke;
+  text-shadow: 3px 1px 1px;
+  display: inline-block;
+  font-size: 50px;
+  text-align: center;
+  box-shadow: 20px 16px 1px black;
+  margin-left: 500px;
+}
+.hem {
+  color: white;
+  background-color: dimgray;
+  font-size: 30px;
+  border-radius: 20px;
+  box-shadow: 10px 12px 2px black;
+  border: white solid 4px;
+  transform: rotateX(50deg);
+}
+.ho {
+  font-size: 60px;
+  border: 2px solid white;
+  box-shadow: 4px 8px 16px white;
+  text-align: center;
+  text-shadow: dimgray 2px 7px 2px;
+  border-radius: 15px;
+  color: aliceblue;
+}
+.ht {
+  font-size: 20px;
+  float: right;
+  border: solid dimgray 1px;
+  text-align: left;
+  transition: all linear 0.5s;
+  margin-right: 200px;
+  box-shadow: black 20px 24px 8px;
+  border-radius: 10px;
+  background-color: palegoldenrod;
+}
+a {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 768px){
+ body{
+ background-color: black;
+ position: relative;
+ max-width:768px;                         
+ }                         
+  .he {
+    border: double black 4px;
+    background-color: black;
+    color: whitesmoke;
+    text-shadow: 3px 1px 1px;
+    font-size: 50px;
+    float: right;
+
+  }
+  .hem {
+    color: white;
+    background-color: dimgray;
+    font-size: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 12px 2px black;
+    border: white solid 4px;
+    transform: rotateX(50deg);
+  }
+  .ho {
+    font-size: 60px;
+    border: 2px solid white;
+    box-shadow: 4px 8px 16px black;
+    text-align: center;
+    text-shadow: dimgray 2px 7px 2px;
+    border-radius: 15px;
+  }
+  .ht {
+    font-size: 20px;
+    float: right;
+    border: solid dimgray 1px;
+    text-align: left;
+    transition: all linear 0.5s;
+    margin-right: 200px;
+    box-shadow: black 20px 24px 8px;
+    border-radius: 10px;
+    background-color: palegoldenrod;
+  }
+  a {
+    font-size: 30px;
+    color: antiquewhite;
+  }
+}
+img{
+position: relative;
+margin: 20px 30px;
+-ms-flex-align: center;                          
+}

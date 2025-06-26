@@ -1,0 +1,92 @@
+@media screen and (min-width: 1024px) {
+  .word {
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 6px 4px 6px green;
+    background-color: chartreuse;
+  }
+  video {
+    width: 400px;
+    height: 300px;
+    float: right;
+  }
+  p {
+    font-size: 25px;
+    margin: 10px 15px;
+  }
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 4px 6px 4px green;
+  }
+  span {
+    color: chartreuse;
+    background-color: black;
+  }
+  strong {
+    color: crimson;
+  }
+  u {
+    color: blue;
+  }
+  img {
+    width: 300px;
+    height: 300px;
+  }
+  li {
+    font-size: 20px;
+  }
+  a {
+    font-size: 30px;
+    color: black;
+  }
+}
+@media screen and (max-width: 768px) {
+ body{
+ background-color: black;
+ color: aliceblue;                         
+ } 
+ .word {
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 6px 4px 6px green;
+    background-color: chartreuse;
+    border-radius: 50px;
+  }
+  video {
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin: 20px;
+  }
+  p {
+    font-size: 20px;
+    margin: 10px 15px;
+  }
+  h1 {
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 4px 6px 4px green;
+  }
+  span {
+    color: chartreuse;
+    background-color: black;
+  }
+  strong {
+    color: crimson;
+  }
+  u {
+    color: blue;
+  }
+  img {
+    width: 200px;
+    height: 300px;
+  }
+  li {
+    font-size: 20px;
+  }
+  a {
+    font-size: 20px;
+    color:white;
+  }
+}

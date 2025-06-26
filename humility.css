@@ -1,0 +1,63 @@
+@media screen and (min-width:1024px){
+.hum {
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 2px 6px 2px;
+    border: 2px solid;
+    box-shadow: 2px 4px 8px;
+}
+  .hum:hover {
+    color: blue;
+  }
+.ho {
+    font-size: 30px;
+    color:black;
+    text-shadow: 2px 1px 2px black;
+    border: 5px solid greenyellow;
+    box-shadow: 4px 20px 40px black;
+}
+.ho:hover {
+    color: orangered;
+    text-shadow: darkgrey;
+  }
+a{
+    font-size:40px;
+    color:black;
+}
+img{
+ posit
+}
+}
+@media screen and (max-width:768px){
+body{
+background-color: black;                          
+}                          
+.hum {
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 2px 6px 2px wheat;
+  box-shadow: 2px 4px 8px;
+  color: blueviolet;
+}
+.hum:hover {
+  color: blue;
+}
+.ho {
+  font-size: 30px;
+  color:white;
+  text-shadow: 2px 1px 2px black;
+  border: 5px solid purple;
+  box-shadow: 4px 20px 40px black;
+}
+.ho:hover {
+  color: orangered;
+  text-shadow: darkgrey;
+}
+a{
+  font-size: 30px;
+  color: aliceblue;
+}
+img{
+margin: 10px 10px;                          
+}
+}

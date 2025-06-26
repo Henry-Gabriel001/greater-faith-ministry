@@ -1,0 +1,45 @@
+.mon{
+font-size:25px;
+text-decoration: underline;
+text-align: center;
+color: blueviolet;
+text-shadow:3px 5px 4px gold;                          
+}
+.mnt{
+font-size:40px ;
+text-align: center;
+background-color:white;
+text-shadow:7px 4px 6px;
+border:3px solid white;
+box-shadow:15px 10px 5px ;
+display: inline-block;
+margin-left:600px;                          
+}
+.mot{
+font-size:30px;
+color:red;
+background: url(prayer.jpg);
+background-repeat: no-repeat;
+background-size:1400px ;
+width:1000px 400px;                          
+}
+.mot:hover{
+color: black;                          
+}
+.amen{
+font-size: 40px;
+text-align: center;
+background-color: crimson;
+border-radius:30px ;                           
+}
+a{
+ font-size:30px ;                         
+}
+
+
+
+
+
+
+
+
