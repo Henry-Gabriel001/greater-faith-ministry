@@ -1,0 +1,27 @@
+.head {
+font-size: 40px;
+text-align: center;
+text-shadow: 4px 5px 4px;                          
+}
+video{
+ width: 400px;
+ height: 500px; 
+ float: left; 
+ margin: 10px 0px;                    
+}
+span{
+color: brown;                          
+}
+.heed{
+text-shadow: 6px 4px 5px ;
+font-size: 40pxpx; 
+text-align: center;                        
+}
+.moot{
+text-shadow: 5px 3px 5px ; 
+text-align: center;                         
+}
+a{
+font-size: 25px;                          
+}
+

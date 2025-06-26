@@ -1,0 +1,38 @@
+body{
+background-color: black;                          
+}
+.nit{
+font-size:20px;
+color: aliceblue;
+text-shadow:7px 8px 4px dimgrey ;
+border:3px solid ;
+box-shadow:11px 30px 9px wheat ;
+}
+.nt{
+font-size:60px;
+color:black;
+text-align: center;
+background-color: aliceblue;
+text-shadow:2px 4px 3px;
+}
+.pt{
+font-size:20px;
+color: antiquewhite;                          
+}
+.py{
+text-align: center;
+color:white;
+font-size: 40px;
+text-shadow:3px 4px 3px;                          
+}
+.mpt{
+color: aliceblue;
+font-size:20px;                          
+}
+a{
+ font-size: 30px;
+ color: beige;                         
+}
+
+
+

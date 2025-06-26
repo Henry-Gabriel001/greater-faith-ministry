@@ -1,0 +1,65 @@
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    color: blue;
+    text-shadow: 4px 3px 4px black;
+  }
+  video {
+    width: 300px;
+    float: left;
+    margin: 20px 40px;
+  }
+  span {
+    color: violet;
+    text-shadow: 1px 1px 1px black;
+    font-size: 27px;
+  }
+  p {
+    font-size: 23px;
+  }
+  u {
+    color: red;
+  }
+  a {
+    font-size: 25px;
+    color: black;
+  }
+}
+@media screen and (max-width: 768px) {
+ body{
+  color: aliceblue;
+  background-color: black;                        
+ }
+ h1 {
+    font-size: 40px;
+    text-align: center;
+    color: blue;
+    text-shadow: 4px 3px 4px wheat;
+    animation: 3s infinite move;
+  }
+  @keyframes move {
+   from{color: blueviolet;}
+   to{color: chartreuse;}                       
+  }
+  video {
+    width: 300px;
+    float: left;
+    margin: 20px 40px;
+  }
+  span {
+    color: violet;
+    text-shadow: 1px 1px 1px black;
+    font-size: 27px;
+  }
+  p {
+    font-size: 23px;
+  }
+  u {
+    color:yellow;
+  }
+  a {
+    font-size: 25px;
+    color:wheat;
+  }
+}

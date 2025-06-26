@@ -1,0 +1,31 @@
+.mood{
+text-align: center;
+background-color: brown;
+color: aliceblue;
+text-shadow: 3px 5px 4px  black; 
+font-size: 40px;                         
+}
+video{
+width: 400px;
+height: 400px;
+border-radius: 30px;
+float: right; 
+margin: 20px 50px; 
+padding-left: 30px;                        
+}
+span{
+color:white;
+background: red;
+margin: 10px;                         
+}
+.vood{
+ background-color: brown; 
+ text-align: center;
+ color: aliceblue;
+ text-shadow: 5px 3px 7px  black;
+ display: inline-block;
+ padding: 10px;                        
+}
+a{
+font-size: 27px ;                          
+}
