@@ -1,0 +1,68 @@
+@media screen and (min-width: 1024px) {
+  h1,
+  h2 {
+    font-size: 40px;
+    text-decoration: underline;
+    color: gray;
+    text-shadow: 5px 5px 3px black;
+    animation: move 4s linear infinite;
+    text-align: center;
+  }
+  @keyframes move {
+    from {
+      color: aqua;
+    }
+    to {
+      color: red;
+    }
+  }
+  video {
+    width: 400px;
+    height: 400px;
+    border: solid black 3px;
+    margin: 10px 20px;
+  }
+  span {
+    color: yellow;
+    background: black;
+  }
+  u,
+  a {
+    color: red;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  h1,
+  h2 {
+    font-size: 30px;
+    text-decoration: underline;
+    color: gray;
+    text-shadow: 5px 5px 3px black;
+    animation: move 4s linear infinite;
+    text-align: center;
+  }
+  @keyframes move {
+    from {
+      color: aqua;
+    }
+    to {
+      color: red;
+    }
+  }
+  video {
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    margin: 10px 20px;
+  }
+  span {
+    color: yellow;
+    background: black;
+  }
+  u,
+  a {
+    color: red;
+    font-size: 25px;
+  }
+}
