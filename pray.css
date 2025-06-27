@@ -1,0 +1,106 @@
+in@media screen and (min-width: 1024px) {
+  body {
+    background: linear-gradient(40deg, white 30%, black 70%);
+  }
+  #hed {
+    font-size: 60px;
+    text-align: center;
+    animation: 3s info infinite;
+  }
+  @keyframes info {
+    from {
+      color: yellow;
+    }
+    to {
+      color: tomato;
+    }
+    from {
+      color: blueviolet;
+    }
+    from {
+      transform: rotate(360deg);
+    }
+  }
+  .list ul,
+  a {
+    font-size: 40px;
+    display: grid;
+    grid-template-columns: repeat(4);
+    color: white;
+    gap: 20px;
+    background-color: black;
+    animation: 2s aim infinite;
+    animation-iteration-count: 2;
+    text-align: center;
+  }
+  @keyframes aim {
+    from {
+      color: crimson;
+      transform: scalex(-2);
+    }
+    to {
+      color: orchid;
+    }
+  }
+  a {
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+  }
+  a:hover {
+    color: grey;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    background: linear-gradient(40deg, white 20%, black 90%);
+  }
+  #hed {
+    font-size: 60px;
+    text-align: center;
+    animation: 3s info infinite;
+  }
+  @keyframes info {
+    from {
+      color: yellow;
+    }
+    to {
+      color: tomato;
+    }
+    from {
+      color: blueviolet;
+    }
+    from {
+      transform: rotate(360deg);
+    }
+  }
+  .list ul,
+  a {
+    font-size: 40px;
+    display: grid;
+    grid-template-columns: repeat(4);
+    color: white;
+    gap: 20px;
+    background-color: black;
+    animation: 2s aim infinite;
+    animation-iteration-count: 2;
+    text-align: center;
+  }
+  @keyframes aim {
+    from {
+      color: crimson;
+      transform: scalex(-2);
+    }
+    to {
+      color: orchid;
+    }
+  }
+  a {
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+  }
+  a:hover {
+    color: grey;
+  }
+}

@@ -1,0 +1,96 @@
+.pen {
+  font-size: 60px;
+  text-align: center;
+  color: aliceblue;
+  text-shadow: 12px 2px 2px red;
+  text-decoration: underline 20px;
+}
+.pen:hover {
+  color: black;
+  text-shadow: 6px 3px 1px dimgrey;
+}
+.pt {
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: azure;
+  background-color: red;
+  width: 500px;
+  float: right;
+  box-shadow: 5px 20px 15px dimgray;
+  position: relative;
+  padding-left: 50px;
+}
+.pt:hover {
+  background: black;
+  color: white;
+}
+.sun {
+  font-size: 50px;
+  color: white;
+  text-shadow: 9px 1px 2px black;
+}
+.st {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 2px 1px 2px red;
+}
+a {
+  font-size: 30px;
+}
+img {
+  margin: 0px 30px;
+}
+@media screen and (max-width: 768px){
+  body{
+ background-color: black;
+ max-width: 500px;                         
+  }                        
+  .pen {
+    font-size: 60px;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 12px 2px 2px red;
+    text-decoration: underline 20px;
+  }
+  .pen:hover {
+    color: black;
+    text-shadow: 6px 3px 1px dimgrey;
+  }
+  .pt {
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: azure;
+    background-color: red;
+    text-indent: 100px;
+    float: right;
+    box-shadow: 5px 20px 15px dimgray;
+    position:relative;
+    width: 200px;
+padding-left: px;
+  }
+  .pt:hover {
+    background: black;
+    color: white;
+  }
+  .sun {
+    font-size: 50px;
+    color: white;
+    text-shadow: 9px 1px 2px black;
+  }
+  .st {
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 2px 1px 2px red  ;
+    color: aliceblue;
+  }
+  a {
+    font-size: 30px;
+  color: aliceblue;  
+  }
+  img {
+    margin: 0px 30px;
+    width: 120px;
+    text-align: center;
+    position: relative;
+  }
+}

@@ -1,0 +1,122 @@
+@media  screen and (min-width:1024px){
+                          
+body{
+background:linear-gradient(450deg, black 2%, white 30%);
+background-repeat: no-repeat; 
+background-size: cover;
+position: relative;
+background-attachment: fixed;                         
+}
+.news{
+font-size: 80px;
+text-align: center;
+text-shadow: 5px 4px 6px black; 
+background:linear-gradient(40deg, white 50%, black 30%) white;
+text-shadow: 7px 8px 1px  white;
+border-radius: 50px;                       
+}
+.newz  a{
+font-size: 30px;
+flex-direction:column; 
+word-spacing:5px ;
+background-color: black;
+margin: 10px 20px;
+border-radius: 20px;
+
+}
+.newx{
+font-size: 40px; 
+text-align: center; 
+}
+img{
+ animation: move 3s infinite;
+ animation-iteration-count: 2;           
+}
+@keyframes move{
+ 0%{
+ transform: translateX(900px);                         
+ } 
+ 20%{
+transform: rotate(250deg);
+opacity: 0px;                        
+ }
+ 50%{
+ transform: translateY(-50px);                         
+ }                        
+}
+a:hover{
+background: red;                          
+}
+.newz a{
+ color: white;                         
+}
+a{
+  font-size: 30px;
+justify-content: center; 
+align-items: center; 
+color: aliceblue;                        
+}
+}
+@media  screen and (max-width:768px){
+body{
+                                                    background:linear-gradient(450deg, black 2%, white 30%);
+                                                    background-repeat: no-repeat; 
+                                                    background-size: cover;
+                                                    position: relative;
+                                                    background-attachment: fixed;                         
+                                                    }                                                                          
+                                                    .news{
+                                                    font-size: 40px;
+                                                    text-align: center;
+                                                    text-shadow: 5px 4px 6px black; 
+                                                    background:linear-gradient(40deg, white 50%, black 30%) white;
+                                                    text-shadow: 7px 8px 1px  white;
+                                                    border-radius: 50px;                       
+                                                    }
+                                                    .newz  a{
+                          
+ 
+                          
+                                                    background-color: black;
+                          
+  margin: 10px 50px;
+  display: flex;                                                  border-radius: 20px;
+                                                    
+                                                    }
+                                                    img{
+                                                  
+  width: 200px;
+margin: 0px 20px; 
+animation: 4s move infinite;
+animation-iteration-count: 3;                                                 }
+@keyframes move{
+0%{
+transform: skew(30deg);                          
+}
+20%{
+transform: skewy(40deg);                          
+}
+50%{
+transform: rotate(360deg);                          
+}                          
+}
+.newx{
+ text-align: center;                         
+}
+                                                    a:hover{
+                                                    background: red;                          
+                                                    }
+                                                    .newz a{
+                                                     color: white;                         
+                                                    }
+                                                    a{
+ justify-content: center;                          
+ color: black;
+ background:white ;
+ font-size: 20px;
+ padding: 4px;
+ border-radius: 5px;                                             
+
+ }    
+                                                    }
+                                                 

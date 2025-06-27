@@ -1,0 +1,85 @@
+
+@media screen and (min-width:1024px){                         
+.pc{
+font-size:80px ;
+font-style: italic;
+text-align: center;
+color:purple;
+text-shadow:6px 7px 5px purple;                          
+}
+.pc:hover{
+transform: rotateX(50deg);
+color: pink;                          
+}
+img{
+margin-left:300px;                          
+}
+.pcc{
+ font-size:30px;
+ color:white;
+ border: 2px dotted pink;
+ box-shadow:6px 28px 20px;
+ background-color:palevioletred;                
+}
+.pe{
+text-align: center;
+font-size: 40px;                          
+}
+.pt{
+background: purple;
+color: aliceblue;
+text-align: center;
+font-size: 30px;                          
+}
+a{
+ margin: 0px 30px; 
+ font-size: 30px;                        
+}
+}
+@media screen  and (max-width:768px){
+.pc{
+font-size:50px;
+text-align: center; 
+color: blueviolet;
+text-shadow: 2px 4px 5px ;                        
+}
+img{
+width: 230px;
+margin-left: 30px; 
+margin: 20px;
+border-radius: 20px;                      
+}
+.pcc{
+ background-color: palevioletred;
+ color: aliceblue; 
+ font-size: 20px;
+ border-radius: 20px;
+ padding: 20px;                        
+} 
+.pe{
+text-align: center;                          
+} 
+.pt{
+text-align: center; 
+background-color: blueviolet;
+color: aliceblue; 
+font-size: 20px;
+border-radius: 20px; 
+padding: 20px;                       
+}
+a{
+font-size: 30px;
+ margin: 0px 20px;                         
+} 
+ h1{
+ animation: move 2s infinite;                         
+ } 
+ @keyframes move{
+from{
+                                                    transform: rotateX(50deg);
+                                                    color: pink;                            
+ } 
+
+
+ }                    
+}

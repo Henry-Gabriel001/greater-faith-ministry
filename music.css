@@ -1,0 +1,63 @@
+@media screen and (min-width:1024px){
+.head{
+font-size: 70px;
+text-align: center;                          
+}
+img{
+width: 300px;
+float: right;
+border-radius: 60px;                         
+}
+p{
+font-size: 30px; 
+margin: 40px;                         
+}
+a{
+color: black; 
+transform: translatex(1000px);
+font-size: 30px;
+margin: 30px 40px;
+
+}
+a:hover{
+color: red;
+}
+.musicset{
+ display:table-row;
+ grid-template-rows: repeat(2,1fr);                        
+}
+.musicset:hover{
+background:linear-gradient(100deg, red 30%, black 30%); 
+color: chocolate;                         
+}
+}
+@media screen and (max-width:768px){
+.head{
+font-size: 39px;
+text-align: center;                         
+}   
+img{
+ border-radius: 30px;
+ margin-left: 69px; 
+ width: 200px;                        
+} 
+p{
+font-size: 20px;
+}
+a{
+color: black; 
+font-size: 20px;                         
+} 
+a:hover{
+ color: crimson;                         
+} 
+.musicset{
+display:inline-table;                          
+}
+audio{
+font-size: 10px;
+margin: 10px 130px;
+text-align: center;
+align-items:center ;
+}                    
+}

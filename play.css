@@ -1,0 +1,77 @@
+@media screen and (min-width:1024px){
+h1{
+font-size: 35px;
+text-shadow: 2px 3px 5px #ffffff;                          
+}
+img{
+width: 250px; 
+border-radius: 20px;                         
+}
+#question{
+font-size: 20px                         
+}
+#answers button{
+justify-content: center;
+
+}
+body{
+color: aliceblue;
+background-color: black;                          
+}
+h2{
+font-size: 25px;                         
+}
+button{
+transition: 2s ease-in all ;                          
+}
+button:hover{
+color:white ;
+background: black;                          
+}
+#next-button{
+margin:10px 500px;                          
+}
+#question-display{
+ font-size: 30px;
+ margin: 10px 30px;                          
+ }
+ #answer-options{
+ margin: 20px 40px;
+ position:relative;
+ } 
+ #submit-button{
+ margin: 30px 20px;                          
+  }   
+a{
+ color: aliceblue;
+ font-size: 25px;                         
+}
+}
+@media screen and (max-width:768px){
+ a{
+ color:white; 
+ font-size: 20px;                        
+ }
+body{
+background-color: black;
+color: aliceblue; 
+margin: 0px;
+padding: 0px;                         
+}
+h1,h2{
+text-align: center;
+
+}
+#question-display{
+font-size: 30px;
+margin: 10px 30px;                          
+}
+#answer-options{
+margin: 20px 40px;
+position:relative;
+} 
+#submit-button{
+margin: 30px 20px;                          
+}                      
+}  
+                                          
