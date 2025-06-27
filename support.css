@@ -1,0 +1,19 @@
+body{
+text-align: center; 
+background-color: black;
+color: aliceblue;                      
+}
+img{
+object-fit: cover;
+width: 150px;
+position:relative;
+margin: 10px 30px; 
+border-radius: 20px;                         
+}
+a{
+color: aliceblue; 
+font-size: 20px;                         
+}
+#imgs{
+ width: 180px;                         
+}

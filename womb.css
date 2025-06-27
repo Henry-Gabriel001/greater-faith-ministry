@@ -1,0 +1,89 @@
+
+@media screen and (min-width:1024px){
+                          
+.wo{
+font-size: 50px;
+text-align: center;
+color:wheat ;
+background:blue;
+text-shadow:3px 4px 3px;
+border:4px double white;
+box-shadow:8px 20px 3px dimgray;
+display:inline-block;
+margin-left:400px ;                          
+}
+img{
+border-radius: 20px;
+margin-left: 500px;                          
+}
+.won{
+font-size: 30px;
+background:darkgray;
+color: aliceblue;
+text-shadow:2px 3px 2px blue;
+border-radius:50px;
+box-shadow:4px 8px 5px blue;
+padding-left:20px ;                          
+}
+.we{
+font-size:40px;
+background-color:white;
+text-shadow:3px 4px 2px blue;                          
+}
+.wet{
+color:darkkhaki ;
+font-size:30px ;
+text-shadow:4px 5px 1px black ;
+background:blue ;                          
+}
+a{
+font-size:30px ;                          
+}
+}
+@media screen and (max-width:768px){
+.wo{
+ font-size: 30px;
+ text-align: center;
+ color: cornflowerblue;
+ background-color: black;
+ border-radius: 50px;                        
+}
+img{
+border-radius: 40px;
+width:250px;
+margin: 10px 40px;
+}
+.won{
+color:black;
+background: skyblue;
+color:black;
+text-align: center;                          
+}
+.we{
+color:white;
+text-align: center; 
+text-shadow: 3px 2px 1px black;                         
+}
+.wet{
+background-color: black;
+color: white;
+padding: 20px; 
+border-radius: 20px;                         
+}                          
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

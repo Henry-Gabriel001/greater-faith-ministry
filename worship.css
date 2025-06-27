@@ -1,0 +1,88 @@
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 5px 4px 4px;
+    animation: 3s infinite move;
+  }
+  @keyframes move {
+    from {
+      color: green;
+    }
+    to {
+      color: gold;
+      transform: scale(1.2);
+    }
+  }
+  video {
+    width: 400px;
+    float: left;
+    margin: 10px 20px;
+  }
+  p {
+    font-size: 22px;
+    margin: 20px 10px;
+  }
+  u {
+    color: gold;
+    background-color: black;
+  }
+  i {
+    color: white;
+    background-color: green;
+  }
+  span {
+    color: brown;
+    font-size: 30px;
+  }
+  a {
+    font-size: 30px;
+    color: black;
+  }
+}
+@media screen and (max-width: 768px) {
+ body{
+  background-color: black;
+  color: aliceblue;                        
+ }
+  h1 {
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 5px 4px 4px;
+    animation: 3s infinite move;
+  }
+  @keyframes move {
+    from {
+      color: green;
+    }
+    to {
+      color: gold;
+      transform: scale(0.9);
+    }
+  }
+  video {
+    width: 300px;
+    margin: 5px 0px;
+    margin-left: 30px;
+  }
+  p {
+    font-size: 20px;
+    margin: 20px 10px;
+  }
+  u {
+    color: gold;
+    background-color: black;
+  }
+  i {
+    color: white;
+    background-color: green;
+  }
+  span {
+    color: brown;
+    font-size: 30px;
+  }
+  a {
+    font-size: 30px;
+    color:white;
+  }
+}
