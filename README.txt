@@ -48,6 +48,11 @@ The Scrolling Background:
 
 		Set the value of $bg to the page background color, URL, and placement
 		of your image. Change $bg-width if your image is something other than
+
+
+
+file:///C:/Users/USER/Desktop/greater%20faith%20ministry/david.mp4
+
 		1500px wide.
 
 
